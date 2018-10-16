@@ -93,3 +93,30 @@
     }
   }
 }
+#topbar {
+  text-align: center;
+  height: 50px;
+  overflow: hidden;
+  -webkit-transition: height 0.5s linear;
+  -moz-transition: height 0.5s linear;
+  transition: height 0.5s linear;
+}
+#topbar a:hover {
+  opacity: 1;
+}
+#tophiddenbar {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  padding: 8px 0; 
+  text-align: center;
+}
+#tophiddenbar a {
+  opacity: 0.5;
+}
+#tophiddenbar a:hover { 
+  opacity: 1; 
+}
+#topbar:hover { 
+  height: 500px; 
+}
